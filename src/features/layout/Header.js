@@ -3,8 +3,8 @@ import { useState } from "react";
 function Header() {
   const [dark, setDark] = useState(false);
   return (
-    <header className="bg-white py-6 sticky">
-      <div className="flex items-center justify-between">
+    <header className="bg-white py-6 sticky top-0 z-50 ">
+      <div className="flex items-center justify-between container mx-auto px-4">
         <div>
           <h3 className="font-semi-bold">Brhane.Giday</h3>
         </div>
@@ -36,12 +36,17 @@ function Header() {
           </div>
         </div>
         <div className="flex items-center  space-x-4">
-          <button className="px-4 py-1 rounded-full bg-red-500 text-sm">
+          <a
+            href="mailto:brhane5giday@gmail.com"
+            rel="noopener"
+            target="_blank"
+            className="px-4 py-1 rounded-full bg-[#66ba5d] text-sm text-white"
+          >
             Let's Talk
-          </button>
+          </a>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6 cursor-pointer text-red-500"
+            className="h-6 w-6 cursor-pointer text-[#66ba5d]"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -55,7 +60,7 @@ function Header() {
             <div className="flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-red-500 cursor-pointer"
+                className="h-6 w-6 text-[#66ba5d] cursor-pointer"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -73,7 +78,7 @@ function Header() {
             <div className="flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-red-500 cursor-pointer"
+                className="h-6 w-6 text-[#66ba5d] cursor-pointer"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
