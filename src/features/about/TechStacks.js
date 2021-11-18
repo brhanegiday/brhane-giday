@@ -5,7 +5,7 @@ function TechStacks() {
   return (
     <div className="py-10">
       <h3 className="text-4xl py-2 text-center"> Tech Stacks</h3>
-      <p className="text-center">
+      <p className="text-center text-gray-700">
         Here are a list of tools, libraries and platforms I have had precious
         experience on.
       </p>

@@ -1,12 +1,14 @@
 import { useState } from "react";
-
+import Link from "next/link";
 function Header() {
   const [dark, setDark] = useState(false);
   return (
     <header className="bg-[#f5f5f5] py-4 sticky top-0 z-50 drop-shadow-md">
       <div className="flex items-center justify-between container mx-auto px-4">
         <div>
-          <h3 className="font-semi-bold">Brhane.Giday</h3>
+          <Link href="/">
+            <a className="font-semi-bold cursor-pointer">Brhane.Giday</a>
+          </Link>
         </div>
         <div className="flex space-x-6">
           <div>

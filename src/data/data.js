@@ -109,3 +109,47 @@ export const showCases = [
     desc: "Joy Media is an advertisement & printing company established in 2007 by Temesgen Getachew. Based in Addis Ababa, Ethiopia, we have country-wide reach.",
   },
 ];
+
+export const socialIcons = [
+  {
+    id: uuidv4(),
+    image: "/contact/github.svg",
+    alt: "Github Icon",
+    text: "Github",
+    bgColor: "#000",
+    url: "https://github.com/brhanegiday/",
+  },
+  {
+    id: uuidv4(),
+    image: "/contact/linkedin_icon.svg",
+    alt: "linkedin Icon",
+    text: "Linkedin",
+    bgColor: "#1c80b5",
+    url: "https://linkedin.com/in/brhane-giday/",
+  },
+  {
+    id: uuidv4(),
+    image: "/contact/instagram_icon.svg",
+    alt: "instagram Icon",
+    text: "Instagram",
+    bgColor: "#ea73b1",
+    url: "https://instagram.com/brhane__giday/",
+  },
+
+  {
+    id: uuidv4(),
+    image: "/contact/gmail_icon.svg",
+    alt: "gmail Icon",
+    text: "Compose",
+    bgColor: "#f1f5f7",
+    url: "mailto:brhane5giday@gmail.com",
+  },
+  {
+    id: uuidv4(),
+    image: "/contact/telegram_icon.svg",
+    alt: "telegram Icon",
+    text: "Telegram",
+    bgColor: "#3cb1e2",
+    url: "https://t.me/brhane_giday",
+  },
+];
