@@ -4,7 +4,7 @@ import Header from "./Header";
 
 function Layout(props) {
   return (
-    <div className="bg-[#f5f5f5]">
+    <div className="bg-[#E3F4FC]">
       <Header />
       <main className="min-h-screen">{props.children}</main>
       <Footer />

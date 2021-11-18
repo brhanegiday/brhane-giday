@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         sans: ["Nunito"],
       },
+      zIndex: {
+        "-1": "-1",
+      },
     },
   },
   variants: {

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 function Footer() {
   return (
-    <div className="px-4 py-6 ">
+    <div className="px-4 pt-10 pb-6 bg-[#f5f5f5]">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center w-3/5 mx-auto">
         <h3 className="text-sm">
           Site made with Next.js and Tailwind CSS. Hosted on Netlify. Full
@@ -10,7 +10,7 @@ function Footer() {
         </h3>
         <div className="relative h-[50px]">
           <Image
-            src="/home/logo-opt.png"
+            src="/home/footer-logo.png"
             alt="looo"
             layout="fill"
             objectFit="contain"
