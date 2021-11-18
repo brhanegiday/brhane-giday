@@ -26,13 +26,20 @@ export const techStacks = [
   },
   {
     id: 5,
+    image: "/home/tech-logos/php_icon.svg",
+    alt: "PHP Logo",
+    desc: "PHP",
+  },
+  {
+    id: 6,
     image: "/home/tech-logos/laravel.png",
     alt: "laravel Logo",
     desc: "Laravel",
   },
+
   {
-    id: 6,
-    image: "/home/tech-logos/wordpress.png",
+    id: 7,
+    image: "/home/tech-logos/wordpress.svg",
     alt: "wordpress Logo",
     desc: "WordPress",
   },
