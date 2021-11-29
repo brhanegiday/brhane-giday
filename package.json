@@ -1,4 +1,8 @@
-{
+{ 
+  "name": "brhane-giday",
+  "version": "1.0.0",
+  "description": "Modern portfolio",
+  "main": "index.js",
   "private": true,
   "scripts": {
     "dev": "next dev",
