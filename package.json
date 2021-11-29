@@ -4,7 +4,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postbuild":"next-on-netlify"
+    "postbuild":"next-on-netlify",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.5",
