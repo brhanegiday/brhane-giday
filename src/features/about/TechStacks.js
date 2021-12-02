@@ -3,8 +3,8 @@ import { techStacks } from "data/data";
 
 function TechStacks() {
   return (
-    <div className="pt-5 pb-10 2xl:container px-10 md:px-20">
-      <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-x-4">
+    <div className="pt-5 pb-10 2xl:container lg:px-16 md:px-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center px-10 gap-x-4 xl:px-12">
         <div className="lg:w-4/5">
           <div className="flex items-baseline space-x-1">
             <h4 className="text-xl md:text-3xl py-2 text-gray-700 font-semibold">

@@ -12,7 +12,7 @@ function ShowCase({ showCase }) {
               layout="fill"
               objectFit="cover"
               objectPosition="10% 50%"
-              className="rounded-lg hover:skew-x-2"
+              className="rounded-lg"
               priority
             />
           </a>

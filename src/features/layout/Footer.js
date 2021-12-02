@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className=" px-10 lg:px-20 py-6 bg-[#f5f5f5] 2xl:container ">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 place-items-center items-center w-full mx-auto">
+    <div className="py-6 bg-[#f5f5f5] 2xl:container ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 place-items-center px-10 lg:px-24 w-full mx-auto">
         <div className="flex gap-x-3 items-center">
           <div className="bg-[#66ba5d] h-[80px] w-[80px] rounded-full">
             <img

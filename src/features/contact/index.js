@@ -17,14 +17,14 @@ function ContactMe() {
         If you wanna get in touch, talk to me about a project collaboration or
         just say hi,
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center py-8 lg:w-3/5 mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 items-center py-8 md:w-4/6 lg:w-3/5 mx-auto">
         <div>
           {socialIcons.map((icon) => (
             <Link href={icon.url} key={icon.id}>
               <a
                 rel="noopener"
                 target="_blank"
-                className="bg-white w-3/6 mx-auto  py-2 px-5 lg:px-10 rounded-full flex items-center gap-x-5 mb-4 shadow-md hover:translate-x-2 duration-300 ease-in-out"
+                className="bg-white w-3/6 md:w-4/5 mx-auto  py-2 px-5 lg:px-10 rounded-full flex items-center gap-x-5 mb-4 shadow-md hover:translate-x-2 duration-300 ease-in-out"
               >
                 <img
                   src={icon.image}
@@ -38,7 +38,7 @@ function ContactMe() {
             </Link>
           ))}
         </div>
-        <div className="w-3/6 mx-auto">
+        <div className="w-3/6 md:w-4/6 mx-auto">
           <h4 className="hidden md:block font-semibold text-sm">
             Do you prefer an email?
           </h4>
