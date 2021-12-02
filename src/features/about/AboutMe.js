@@ -5,11 +5,11 @@ function AboutMe() {
   return (
     <div className="py-16" id="about">
       <div className="w-4/5 mx-auto grid grid-cols-1 md:grid-cols-2 items-center">
-        <div className="w-4/5">
-          <h2 className="text-sm pb-1 text-[#66ba5d] font-semibold">
+        <div className="md:w-4/5 w-full">
+          <h2 className="text-left text-xs md:text-sm pb-1 text-[#66ba5d] font-semibold">
             MY SKILLSET
           </h2>
-          <h3 className="text-3xl text-gray-700 font-semibold">
+          <h3 className="text-md sm:text-xl md:text-3xl text-gray-700 font-semibold">
             Fullstack developer who writes clean, elegant and efficient code
           </h3>
 
@@ -19,8 +19,12 @@ function AboutMe() {
             smooth={true}
             offset={-70}
             duration={500}
+            className="md:block hidden"
           >
-            <button className="flex group space-x-1 mt-3 items-center hover:bg-[#66ba5d] shadow-md rounded-full hover:translate-x-1 transition transform ease-in-out duration-350 border-b-4 border-t-[1px] border-[#66ba5d] py-2 px-5">
+            <button
+              type="button"
+              className="flex group space-x-1 mt-3 items-center hover:bg-[#66ba5d] shadow-md rounded-full hover:translate-x-1 transition transform ease-in-out duration-350 border-b-4 border-t-[1px] border-[#66ba5d] py-2 px-5"
+            >
               <p className="uppercase text-xs text-gray-700 group-hover:text-white">
                 Let's make something special
               </p>
@@ -44,6 +48,24 @@ function AboutMe() {
             fostering smart collaboration. A humble team player leading by
             influence and genuine passion for crafting solutions.
           </p>
+          <div className="block md:hidden">
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <button
+                type="button"
+                className="flex group space-x-1 mt-3 items-center hover:bg-[#66ba5d] shadow-md rounded-full hover:translate-x-1 transition transform ease-in-out duration-350 border-b-4 border-t-[1px] border-[#66ba5d] py-2 px-5"
+              >
+                <p className="uppercase text-xs text-gray-700 group-hover:text-white">
+                  Let's make something special
+                </p>
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

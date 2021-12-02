@@ -1,4 +1,4 @@
-{ 
+{
   "name": "brhane-giday",
   "version": "1.0.0",
   "description": "Modern portfolio",
@@ -13,8 +13,8 @@
   "dependencies": {
     "@heroicons/react": "^1.0.5",
     "express": "^4.17.1",
-    "framer-motion": "^5.3.3",
     "next": "latest",
+    "next-themes": "0.0.15",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scroll": "^1.8.4",

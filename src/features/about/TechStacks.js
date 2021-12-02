@@ -3,11 +3,11 @@ import { techStacks } from "data/data";
 
 function TechStacks() {
   return (
-    <div className="pt-5 pb-10 xl:container mx-auto px-24">
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-x-4">
-        <div className="w-[80%] text-left">
+    <div className="pt-5 pb-10 2xl:container px-10 md:px-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-x-4">
+        <div className="lg:w-4/5">
           <div className="flex items-baseline space-x-1">
-            <h4 className="text-3xl py-2 text-gray-700 font-semibold">
+            <h4 className="text-xl md:text-3xl py-2 text-gray-700 font-semibold">
               Tech Stacks
             </h4>
             <div className="w-2 h-2 rounded-full bg-[#66ba5d]"></div>
@@ -43,12 +43,12 @@ function TechStacks() {
             </p>
           </div>
         </div>
-        <div className="">
-          <p className="text-xl text-gray-700 font-semibold pb-4">
+        <div>
+          <p className="text-sm lg:text-lg text-gray-700 font-semibold mt-8 lg:mt-0 pb-4 w-full sm:w-4/5">
             Here are a list of tools, libraries and platforms I have had
             precious experience on.
           </p>
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-2 gap-x-4 lg:gap-x-2">
             <div>
               <h3 className="font-semibold text-gray-700">Frameworks</h3>
               <p className="text-sm text-gray-700">React</p>
@@ -67,7 +67,7 @@ function TechStacks() {
               <p className="text-sm text-gray-700">Firebase</p>
               <p className="text-sm text-gray-700">PostgreSQL</p>
               <p className="text-sm text-gray-700">Git | Github | Gitlab</p>
-              <p className="text-sm text-gray-700">Netlify | Heroku</p>
+              <p className="text-sm text-gray-700">Netlify | Vercel</p>
             </div>
           </div>
         </div>

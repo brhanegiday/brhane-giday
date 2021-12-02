@@ -1,22 +1,37 @@
-import { useState } from "react";
-import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
 import NextLink from "next/link";
 import { Link } from "react-scroll";
 import { GlobeAltIcon } from "@heroicons/react/solid";
-import { SunIcon, MoonIcon } from "@heroicons/react/outline";
+import { SunIcon, MoonIcon, MenuIcon } from "@heroicons/react/outline";
+import { useTheme } from "next-themes";
+import MobileMenu from "./MobileMenu";
 
 function Header() {
-  const [dark, setDark] = useState(false);
+  const [openMenu, setOpenMenu] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const { systemTheme, theme, setTheme } = useTheme();
+  const currentTheme = theme === "system" ? systemTheme : theme;
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   return (
     <header className="bg-[#f5f5f5] py-4 sticky top-0 z-50 drop-shadow-md">
-      <div className="flex items-center justify-between container mx-auto px-4">
-        <div className="cursor-pointer group">
+      <nav className="flex items-center justify-around sm:justify-between container mx-auto sm:px-8">
+        <div className="cursor-pointer group flex space-x-2">
+          <div className="block lg:hidden cursor-pointer">
+            <MenuIcon
+              role="button"
+              className="w-5 h-5 font-bold text-[#66ba5d]"
+              onClick={() => setOpenMenu(true)}
+            />
+          </div>
           <NextLink href="/">
             <a className="font-semi-bold cursor-pointer">Brhane.Giday</a>
           </NextLink>
-          <div className="opacity-10 w-full h-[2px] bg-[#66ba5d] group-hover:opacity-90"></div>
+          <div className="opacity-10 w-full h-[2px] bg-[#66ba5d] group-hover:opacity-90 hidden lg:block"></div>
         </div>
-        <ul className="flex space-x-6">
+        <ul className="hidden space-x-6 lg:flex">
           <li>
             <Link
               activeClass="active"
@@ -76,26 +91,39 @@ function Header() {
             href="mailto:brhane5giday@gmail.com"
             rel="noopener"
             target="_blank"
-            className="px-4 py-1 rounded-full bg-[#66ba5d] text-sm text-white"
+            className="px-4 py-1 sm:py-[0.2rem] rounded-full bg-[#66ba5d] text-sm text-white hidden sm:block"
           >
             Let's Talk
           </a>
-          <GlobeAltIcon className="h-6 w-6 cursor-pointer text-[#66ba5d]" />
+          <GlobeAltIcon
+            className="h-5 w-5 cursor-pointer text-[#66ba5d]"
+            rore="button"
+          />
+          <div>
+            {mounted && currentTheme === "dark" ? (
+              <div className="flex items-center">
+                <MoonIcon
+                  className="h-5 w-5 text-[#66ba5d] cursor-pointer"
+                  onClick={() => setTheme("dark")}
+                  role="button"
+                />
+                <p className="text-xs cursor-pointer">Dark</p>
+              </div>
+            ) : (
+              <div className="flex items-center">
+                <SunIcon
+                  className="h-5 w-5 text-[#66ba5d] cursor-pointer"
+                  role="button"
+                  onClick={() => setTheme("light")}
+                />
 
-          {dark ? (
-            <div className="flex items-center" onClick={() => setDark(false)}>
-              <MoonIcon className="h-6 w-6 text-[#66ba5d] cursor-pointer" />
-              <p className="text-xs cursor-pointer">Dark</p>
-            </div>
-          ) : (
-            <div className="flex items-center" onClick={() => setDark(true)}>
-              <SunIcon className="h-6 w-6 text-[#66ba5d] cursor-pointer" />
-
-              <p className="text-xs cursor-pointer">Light</p>
-            </div>
-          )}
+                <p className="text-xs cursor-pointer">Light</p>
+              </div>
+            )}
+          </div>
         </div>
-      </div>
+      </nav>
+      {openMenu && <MobileMenu openMenu={openMenu} setOpenMenu={setOpenMenu} />}
     </header>
   );
 }
