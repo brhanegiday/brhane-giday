@@ -8,7 +8,7 @@ function Home() {
 
   return (
     <div className="py-6 mt-4 md:py-8" id="home">
-      <div className="lg:container mx-auto grid grid-cols-1 sm:grid-cols-2 items-center px-10 sm:px-16 lg:px-28">
+      <div className="2xl:container mx-auto grid grid-cols-1 sm:grid-cols-2 items-center px-10 sm:px-16 md:px-24">
         <div className="text-gray-900 py-6 mb-4 md:pb-0 md:mb-0">
           <h1 className="text-md md:text-lg pb-1  text-gray-700 font-semibold text-center sm:text-left ">
             Hello, it's me
@@ -60,7 +60,7 @@ function Home() {
             src="/home/brhane-giday_opt.png"
             alt="Brhane Giday Image"
             layout="fill"
-            objectFit="cover"
+            objectFit="contain"
             priority
           />
         </div>
