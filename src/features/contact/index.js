@@ -3,7 +3,10 @@ import Link from "next/link";
 
 function ContactMe() {
   return (
-    <div className="pt-5 pb-10 2xl:container lg:px-20 mx-auto" id="contact">
+    <div
+      className="py-8 mt-8 pb-10 xl:container sm:px-16 lg:px-20 mx-auto "
+      id="contact"
+    >
       <h3 className="text-center text-xs md:text-sm  text-[#66ba5d] font-semibold">
         WHATS NEXT
       </h3>

@@ -7,8 +7,11 @@ function Home() {
   const [mouseEvent, setMouseEvent] = useState(false);
 
   return (
-    <div className="py-6 mt-4 md:py-8" id="home">
-      <div className="2xl:container mx-auto grid grid-cols-1 sm:grid-cols-2 items-center px-10 sm:px-16 md:px-24">
+    <div
+      className="py-8 px-10 sm:px-16 lg:px-20 xl:container mx-auto"
+      id="home"
+    >
+      <div className=" grid grid-cols-1 sm:grid-cols-2 items-center">
         <div className="text-gray-900 py-6 mb-4 md:pb-0 md:mb-0">
           <h1 className="text-md md:text-lg pb-1  text-gray-700 font-semibold text-center sm:text-left ">
             Hello, it's me

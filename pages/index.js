@@ -11,7 +11,7 @@ export default function HomePage() {
   return (
     <React.Fragment>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="A freelance software engineer specialized in both front-end and back-end web development."

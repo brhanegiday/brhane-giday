@@ -17,17 +17,21 @@ function Header() {
 
   return (
     <header className="bg-[#f5f5f5] py-4 sticky top-0 z-50 drop-shadow-md">
-      <nav className="flex items-center justify-around sm:justify-between container mx-auto sm:px-8">
+      <nav className="flex items-center justify-between xl:container px-10 mx-auto sm:px-16 lg:px-20">
         <div className="cursor-pointer group flex space-x-2">
           <div className="block lg:hidden cursor-pointer">
             <MenuIcon
               role="button"
-              className="w-5 h-5 font-bold text-[#66ba5d]"
+              className="w-5 h-5 font-extrabold text-[#66ba5d]"
               onClick={() => setOpenMenu(true)}
             />
           </div>
           <NextLink href="/">
-            <a className="font-semi-bold cursor-pointer">Brhane.Giday</a>
+            <a className="font-semi-bold cursor-pointer">
+              Brhane
+              <span className="text-[#66ba5d] font-extrabold">.</span>
+              Giday
+            </a>
           </NextLink>
           <div className="opacity-10 w-full h-[2px] bg-[#66ba5d] group-hover:opacity-90 hidden lg:block"></div>
         </div>

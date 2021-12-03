@@ -4,7 +4,10 @@ import { showCases } from "data/data";
 
 function Works() {
   return (
-    <div className="py-5 mx-auto xl:container px-8 md:px-20" id="my-work">
+    <div
+      className="py-5 mx-auto xl:container sm:px-16 px-10 lg:px-20"
+      id="my-work"
+    >
       <div className=" justify-center flex items-baseline space-x-1">
         <h3 className="text-center text-xl md:text-3xl text-gray-700 font-semibold">
           Some of my Works

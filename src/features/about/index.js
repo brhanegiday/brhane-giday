@@ -4,10 +4,10 @@ import TechStacks from "./TechStacks";
 
 function About() {
   return (
-    <React.Fragment>
+    <div className="py-16 xl:container px-10 sm:px-16 lg:px-20 mx-auto">
       <AboutMe />
       <TechStacks />
-    </React.Fragment>
+    </div>
   );
 }
 

@@ -17,7 +17,7 @@ function ShowCase({ showCase }) {
             />
           </a>
         </div>
-        <div className="absolute bottom-4 md:bottom-4 flex flex-col items-center">
+        <div className="absolute bottom-4 md:bottom-6 flex flex-col items-center">
           <h3 className="text-center text-xl text-white hover:underline">
             <a href={showCase.url} target="_blank" rel="noopener">
               {showCase.title}
