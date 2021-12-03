@@ -21,7 +21,7 @@ function Header() {
         <div className="cursor-pointer group flex space-x-2">
           <div className="block lg:hidden cursor-pointer">
             <MenuIcon
-              role="button"
+              aria-label="menuIcon"
               className="w-5 h-5 font-extrabold text-[#66ba5d]"
               onClick={() => setOpenMenu(true)}
             />
@@ -33,7 +33,6 @@ function Header() {
               Giday
             </a>
           </NextLink>
-          <div className="opacity-10 w-full h-[2px] bg-[#66ba5d] group-hover:opacity-90 hidden lg:block"></div>
         </div>
         <ul className="hidden space-x-6 lg:flex">
           <li>
@@ -101,7 +100,7 @@ function Header() {
           </a>
           <GlobeAltIcon
             className="h-5 w-5 cursor-pointer text-[#66ba5d]"
-            rore="button"
+            aria-label="globeIcon"
           />
           <div>
             {mounted && currentTheme === "dark" ? (
@@ -109,7 +108,7 @@ function Header() {
                 <MoonIcon
                   className="h-5 w-5 text-[#66ba5d] cursor-pointer"
                   onClick={() => setTheme("dark")}
-                  role="button"
+                  aria-label="moonIcon"
                 />
                 <p className="text-xs cursor-pointer">Dark</p>
               </div>
@@ -117,7 +116,7 @@ function Header() {
               <div className="flex items-center">
                 <SunIcon
                   className="h-5 w-5 text-[#66ba5d] cursor-pointer"
-                  role="button"
+                  aria-label="sunIcon"
                   onClick={() => setTheme("light")}
                 />
 

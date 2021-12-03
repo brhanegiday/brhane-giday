@@ -9,7 +9,7 @@ function MobileMenu({ setOpenMenu, openMenu }) {
         {openMenu && (
           <div className="mb-10">
             <XIcon
-              role="button"
+              aria-label="closeIcon"
               className="w-8 h-8 font-bold text-[#66ba5d]"
               onClick={() => setOpenMenu(false)}
             />

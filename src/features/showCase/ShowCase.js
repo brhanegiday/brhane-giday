@@ -5,7 +5,7 @@ function ShowCase({ showCase }) {
     <React.Fragment>
       <div className="relative">
         <div className="relative lg:h-[20vw] md:h-[40vw] h-[50vw]">
-          <a href={showCase.url} target="_blank" rel="preload prefetch">
+          <a href={showCase.url} target="_blank" rel="preload noopener">
             <Image
               src={showCase.image}
               alt={showCase.alt}

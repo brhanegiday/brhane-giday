@@ -7,8 +7,8 @@ function ContactMe() {
       className="py-8 mt-8 pb-10 xl:container sm:px-16 lg:px-20 mx-auto "
       id="contact"
     >
-      <h3 className="text-center text-xs md:text-sm  text-[#66ba5d] font-semibold">
-        WHATS NEXT
+      <h3 className="text-center text-xs md:text-sm text-[#66ba5d] font-bold">
+        WHAT'S NEXT
       </h3>
       <div className="flex space-x-1 items-baseline justify-center">
         <h3 className="text-center text-xl md:text-3xl  text-gray-700 font-semibold">

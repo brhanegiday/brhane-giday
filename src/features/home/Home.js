@@ -45,12 +45,12 @@ function Home() {
               <div className="">
                 {mouseEvent ? (
                   <ArrowDownIcon
-                    role="button"
+                    aria-label="arrowDown"
                     className="w-8 h-4 text-[#66ba5d] group-hover:text-white"
                   />
                 ) : (
                   <ArrowRightIcon
-                    role="button"
+                    aria-label="arrowRight"
                     className="w-8 h-4 text-[#66ba5d] group-hover:text-white"
                   />
                 )}
