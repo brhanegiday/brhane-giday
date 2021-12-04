@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import NextLink from "next/link";
 import { Link } from "react-scroll";
-import { GlobeAltIcon } from "@heroicons/react/solid";
+import { DocumentIcon } from "@heroicons/react/solid";
 import { SunIcon, MoonIcon, MenuIcon } from "@heroicons/react/outline";
 import { useTheme } from "next-themes";
 import MobileMenu from "./MobileMenu";
@@ -106,7 +106,7 @@ function Header() {
             rel="noopener"
             target="_blank"
           >
-            <GlobeAltIcon
+            <DocumentIcon
               className="h-5 w-5 cursor-pointer text-[#66ba5d]"
               role="globeIcon"
             />
