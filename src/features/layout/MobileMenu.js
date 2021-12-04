@@ -21,6 +21,7 @@ function MobileMenu({ setOpenMenu, openMenu }) {
               activeClass="active"
               to="home"
               spy={true}
+              hashSpy={true}
               smooth={true}
               offset={-70}
               onClick={() => setOpenMenu(false)}
@@ -36,6 +37,7 @@ function MobileMenu({ setOpenMenu, openMenu }) {
               to="about"
               spy={true}
               smooth={true}
+              hashSpy={true}
               offset={-70}
               onClick={() => setOpenMenu(false)}
               duration={500}
@@ -50,6 +52,7 @@ function MobileMenu({ setOpenMenu, openMenu }) {
               to="my-work"
               spy={true}
               smooth={true}
+              hashSpy={true}
               offset={-70}
               onClick={() => setOpenMenu(false)}
               duration={500}
@@ -65,6 +68,7 @@ function MobileMenu({ setOpenMenu, openMenu }) {
               to="contact"
               spy={true}
               smooth={true}
+              hashSpy={true}
               offset={-70}
               onClick={() => setOpenMenu(false)}
               duration={500}

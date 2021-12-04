@@ -14,7 +14,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["Nunito"],
+        sans: ["Nunito", "sans-serif"],
       },
       zIndex: {
         "-1": "-1",

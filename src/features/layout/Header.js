@@ -5,8 +5,10 @@ import { DocumentIcon } from "@heroicons/react/solid";
 import { SunIcon, MoonIcon, MenuIcon } from "@heroicons/react/outline";
 import { useTheme } from "next-themes";
 import MobileMenu from "./MobileMenu";
+import { useRouter } from "next/router";
 
 function Header() {
+  const router = useRouter();
   const [openMenu, setOpenMenu] = useState(false);
   const [mounted, setMounted] = useState(false);
   const { systemTheme, theme, setTheme } = useTheme();
@@ -43,6 +45,7 @@ function Header() {
               activeClass="active"
               to="home"
               spy={true}
+              hashSpy={true}
               smooth={true}
               offset={-70}
               duration={500}
@@ -57,8 +60,12 @@ function Header() {
               to="about"
               spy={true}
               smooth={true}
+              hashSpy={true}
               offset={-70}
               duration={500}
+              // style={{
+              //   color: router.asPath === "/#about" ? "#66ba5d" : "",
+              // }}
               className="text-gray-700 text-sm hover:text-[#66ba5d] ease-in-out duration-150 cursor-pointer"
             >
               About
@@ -70,6 +77,7 @@ function Header() {
               to="my-work"
               spy={true}
               smooth={true}
+              hashSpy={true}
               offset={-70}
               duration={500}
               className="text-gray-700 text-sm hover:text-[#66ba5d] ease-in-out duration-150 cursor-pointer"
@@ -84,6 +92,7 @@ function Header() {
               to="contact"
               spy={true}
               smooth={true}
+              hashSpy={true}
               offset={-70}
               duration={500}
               className="text-gray-700 text-sm hover:text-[#66ba5d] ease-in-out duration-150 cursor-pointer"
