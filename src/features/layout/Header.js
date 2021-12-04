@@ -101,10 +101,16 @@ function Header() {
           >
             Let's Talk
           </a>
-          <GlobeAltIcon
-            className="h-5 w-5 cursor-pointer text-[#66ba5d]"
-            role="globeIcon"
-          />
+          <a
+            href="https://docs.google.com/document/d/1ZTFbhzxUkX4n8tE2EeZ_zOVkP5cY7_ek89H0Fiu1V6A/edit#"
+            rel="noopener"
+            target="_blank"
+          >
+            <GlobeAltIcon
+              className="h-5 w-5 cursor-pointer text-[#66ba5d]"
+              role="globeIcon"
+            />
+          </a>
           <div>
             {mounted && currentTheme === "dark" ? (
               <div className="flex items-center">
