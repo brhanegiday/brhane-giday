@@ -21,16 +21,19 @@ function Header() {
         <div className="cursor-pointer group flex space-x-2">
           <div className="block lg:hidden cursor-pointer">
             <MenuIcon
-              aria-label="menuIcon"
+              role="menuIcon"
               className="w-5 h-5 font-extrabold text-[#66ba5d]"
               onClick={() => setOpenMenu(true)}
             />
           </div>
           <NextLink href="/">
             <a className="font-semi-bold cursor-pointer">
-              Brhane
-              <span className="text-[#66ba5d] font-extrabold">.</span>
-              Giday
+              <img
+                src="/home/brhane-giday.svg"
+                alt="Brhane Giday"
+                width="184px"
+                height="26px"
+              />
             </a>
           </NextLink>
         </div>
@@ -100,7 +103,7 @@ function Header() {
           </a>
           <GlobeAltIcon
             className="h-5 w-5 cursor-pointer text-[#66ba5d]"
-            aria-label="globeIcon"
+            role="globeIcon"
           />
           <div>
             {mounted && currentTheme === "dark" ? (
@@ -108,7 +111,7 @@ function Header() {
                 <MoonIcon
                   className="h-5 w-5 text-[#66ba5d] cursor-pointer"
                   onClick={() => setTheme("dark")}
-                  aria-label="moonIcon"
+                  role="moonIcon"
                 />
                 <p className="text-xs cursor-pointer">Dark</p>
               </div>
@@ -116,7 +119,7 @@ function Header() {
               <div className="flex items-center">
                 <SunIcon
                   className="h-5 w-5 text-[#66ba5d] cursor-pointer"
-                  aria-label="sunIcon"
+                  role="sunIcon"
                   onClick={() => setTheme("light")}
                 />
 

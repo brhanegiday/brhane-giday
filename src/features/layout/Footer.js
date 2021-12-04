@@ -17,22 +17,72 @@ function Footer() {
             <div>
               <h3 className="text-xs  mb-1">Brhane Giday</h3>
               <h4 className="text-sm text-gray-700 sm:font-semibold">
-                Full Stack Web Developer
+                Full Stack Developer
               </h4>
             </div>
           </div>
-          <h3 className="text-sm text-gray-700 mx-auto w-full sm:w-4/6 mt-5">
-            Designed & Developed by Brhane Giday{" "}
-            <span className="text-[#66ba5d]">@2021</span>
+          <h3 className="text-sm text-gray-700 mx-auto w-full sm:w-5/6 mt-5">
+            Designed & Developed by me <span className="">&copy; 2021</span>
+            <br />
+            Made with{" "}
+            <a
+              href="https://nextjs.org/"
+              rel="noopener"
+              target="_blank"
+              className="text-[#66ba5d]"
+            >
+              NextJs
+            </a>{" "}
+            &{" "}
+            <a
+              href="https://tailwindcss.com/"
+              rel="noopener"
+              target="_blank"
+              className="text-[#66ba5d]"
+            >
+              Tailwindcss
+            </a>
           </h3>
           <div className="hidden lg:block">
-            <Image
-              src="/home/footer-logo.png"
-              alt="Footer logo"
-              height={106}
-              width={213}
-              objectFit="contain"
-            />
+            <h4 className="text-sm mb-1 text-gray-700 sm:font-semibold">
+              Let's get social
+            </h4>
+            <p className="text-sm text-gray-700 ">
+              Follow me on{" "}
+              <span>
+                <a
+                  href="https://instagram.com/brhane__giday/"
+                  rel="noopener"
+                  target="_blank"
+                  className="text-[#66ba5d] sm:font-semibold"
+                >
+                  Instagram
+                </a>
+              </span>
+              {", "}
+              <span>
+                <a
+                  href="https://github.com/brhanegiday/"
+                  rel="noopener"
+                  target="_blank"
+                  className="text-[#66ba5d] sm:font-semibold"
+                >
+                  Github
+                </a>
+              </span>{" "}
+              and{" "}
+              <span>
+                <a
+                  href="https://linkedin.com/in/brhane-giday/"
+                  rel="noopener"
+                  target="_blank"
+                  className="text-[#66ba5d] sm:font-semibold"
+                >
+                  LinkedIn
+                </a>
+              </span>
+              .
+            </p>
           </div>
         </div>
       </div>

@@ -19,6 +19,9 @@ module.exports = {
       zIndex: {
         "-1": "-1",
       },
+      backgroundImage: {
+        "background-image": "url('/home/bg.svg')",
+      },
     },
   },
   variants: {

@@ -4,12 +4,12 @@ import Link from "next/link";
 function ContactMe() {
   return (
     <div
-      className="py-8 mt-8 pb-10 xl:container sm:px-16 lg:px-20 mx-auto "
+      className="py-8 mt-4 pb-10 xl:container sm:px-16 lg:px-20 mx-auto "
       id="contact"
     >
-      <h3 className="text-center text-xs md:text-sm text-[#66ba5d] font-bold">
+      <h4 className="text-center text-xs md:text-sm text-[#66ba5d] font-bold">
         WHAT'S NEXT
-      </h3>
+      </h4>
       <div className="flex space-x-1 items-baseline justify-center">
         <h3 className="text-center text-xl md:text-3xl  text-gray-700 font-semibold">
           Lets work together
@@ -27,7 +27,7 @@ function ContactMe() {
               <a
                 rel="noopener"
                 target="_blank"
-                className="bg-white w-3/6 md:w-4/5 mx-auto  py-2 px-5 lg:px-10 rounded-full flex items-center gap-x-5 mb-4 shadow-md hover:translate-x-2 duration-300 ease-in-out"
+                className="bg-white w-3/6 md:w-4/5 xl:w-3/5 mx-auto  py-2 px-5 lg:px-10 rounded-full flex items-center gap-x-5 mb-4 shadow-md hover:translate-x-2 duration-300 ease-in-out"
               >
                 <img
                   src={icon.image}
@@ -41,7 +41,7 @@ function ContactMe() {
             </Link>
           ))}
         </div>
-        <div className="w-3/6 md:w-4/6 mx-auto">
+        <div className="w-3/6 md:w-4/5 xl:w-3/5 mx-auto">
           <h4 className="hidden md:block font-semibold text-sm">
             Do you prefer an email?
           </h4>

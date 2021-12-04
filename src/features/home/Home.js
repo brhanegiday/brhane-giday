@@ -42,15 +42,15 @@ function Home() {
               <div className="uppercase text-xs text-gray-700 group-hover:text-white">
                 View my Work
               </div>
-              <div className="">
+              <div>
                 {mouseEvent ? (
                   <ArrowDownIcon
-                    aria-label="arrowDown"
+                    role="arrowDown"
                     className="w-8 h-4 text-[#66ba5d] group-hover:text-white"
                   />
                 ) : (
                   <ArrowRightIcon
-                    aria-label="arrowRight"
+                    role="arrowRight"
                     className="w-8 h-4 text-[#66ba5d] group-hover:text-white"
                   />
                 )}

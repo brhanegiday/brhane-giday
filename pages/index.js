@@ -1,11 +1,13 @@
 import Head from "next/head";
-import Home from "../src/features/home/Home";
-import About from "../src/features/about";
-import Works from "../src/features/showCase";
-import ContactMe from "../src/features/contact";
-
-import Layout from "../src/features/layout/Layout";
 import React from "react";
+import dynamic from "next/dynamic";
+import { NextSeo } from "next-seo";
+// Dynamic import
+const Home = dynamic(() => import("../src/features/home/Home"));
+const About = dynamic(() => import("../src/features/about"));
+const Works = dynamic(() => import("../src/features/showCase"));
+const ContactMe = dynamic(() => import("../src/features/contact"));
+const Layout = dynamic(() => import("../src/features/layout/Layout"));
 
 export default function HomePage() {
   return (
@@ -22,8 +24,27 @@ export default function HomePage() {
         />
         <meta name="author" content="Brhane Giday" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <title>Brhane Giday | Fullstack Web Developer</title>
+        <title>Brhane Giday | Fullstack Developer</title>
       </Head>
+      <NextSeo
+        title="Brhane Giday | Fullstack Developer"
+        description="A freelance software engineer specialized in both front-end and back-end web development."
+        openGraph={{
+          type: "website",
+          url: `${process.env.SELF_URL}/`,
+          title: "Brhane Giday | Fullstack Developer",
+          description:
+            "A freelance software engineer specialized in both front-end and back-end web development.",
+          images: [
+            {
+              url: `${process.env.SELF_URL}/og/Brhane-Giday.png`,
+              width: 800,
+              height: 600,
+              alt: "Brhane Giday",
+            },
+          ],
+        }}
+      />
       <Layout>
         <Home />
         <About />

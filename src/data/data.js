@@ -133,12 +133,4 @@ export const socialIcons = [
     text: "Instagram",
     url: "https://instagram.com/brhane__giday/",
   },
-
-  // {
-  //   id: uuidv4(),
-  //   image: "/contact/telegram_icon.svg",
-  //   alt: "telegram Icon",
-  //   text: "Telegram",
-  //   /brhane_giday",
-  // },
 ];
