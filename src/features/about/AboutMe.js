@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 function AboutMe() {
   return (
-    <div className="py-10 " id="about">
+    <div className="py-10" id="about">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center">
         <div className="md:w-4/5 w-full">
           <h2 className="text-left text-xs md:text-sm pb-1 text-[#66ba5d] font-bold">

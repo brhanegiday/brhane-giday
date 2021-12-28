@@ -8,7 +8,7 @@ function Home() {
 
   return (
     <div
-      className="py-8 px-10 sm:px-16 lg:px-20 xl:container mx-auto"
+      className="py-4 sm:py-6 px-10 sm:px-16 lg:px-20 xl:container mx-auto"
       id="home"
     >
       <div className=" grid grid-cols-1 sm:grid-cols-2 items-center">
@@ -58,9 +58,9 @@ function Home() {
             </button>
           </Link>
         </div>
-        <div className="relative h-[22rem] sm:h-[18rem] md:h-[22rem] lg:h-[27rem] xl:h-[36rem] 2xl:h-[42rem] w-full">
+        <div className="relative h-[10rem] sm:h-[15rem]  lg:h-[20rem] 2xl:h-[26rem] w-full ">
           <Image
-            src="/home/brhane-giday_opt.png"
+            src="/home/heroMan.png"
             alt="Brhane Giday Image"
             layout="fill"
             objectFit="contain"
