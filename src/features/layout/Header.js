@@ -63,10 +63,12 @@ function Header() {
               hashSpy={true}
               offset={-70}
               duration={500}
-              // style={{
-              //   color: router.asPath === "/#about" ? "#66ba5d" : "",
-              // }}
-              className="text-gray-700 text-sm hover:text-[#66ba5d] ease-in-out duration-150 cursor-pointer"
+              style={{
+                color: router.pathname === "/#me" ? "#66ba5d" : "",
+              }}
+              className={`${
+                router.asPath === "/#me" ? "text-[#66ba5d]" : "text-gray-700"
+              } text-sm hover:text-[#66ba5d] ease-in-out duration-150 cursor-pointer`}
             >
               About
             </Link>

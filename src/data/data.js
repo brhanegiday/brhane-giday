@@ -131,6 +131,6 @@ export const socialIcons = [
     image: "/contact/instagram_icon.svg",
     alt: "instagram Icon",
     text: "Instagram",
-    url: "https://instagram.com/brhane__giday/",
+    url: "https://instagram.com/brhane_giday/",
   },
 ];

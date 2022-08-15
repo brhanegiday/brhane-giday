@@ -3,6 +3,7 @@ module.exports = {
   // purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   purge: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
   darkMode: "class",
+
   theme: {
     screens: {
       // xs: "0px",
@@ -14,7 +15,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["Nunito", "sans-serif"],
+        sans: ["Inter", "sans-serif"],
       },
       zIndex: {
         "-1": "-1",

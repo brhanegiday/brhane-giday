@@ -51,7 +51,7 @@ function Footer() {
               Follow me on{" "}
               <span>
                 <a
-                  href="https://instagram.com/brhane__giday/"
+                  href="https://instagram.com/brhane_giday/"
                   rel="noopener"
                   target="_blank"
                   className="text-[#66ba5d] sm:font-semibold"

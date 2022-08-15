@@ -23,8 +23,8 @@ function Home() {
             <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-[#66ba5d]"></div>
           </div>
           <p className="w-full sm:w-4/5 text-sm py-2 text-gray-700 text-center sm:text-left">
-            A freelance software engineer specialized in both front-end and
-            back-end web development.
+            I am a freelancer specializing in Web development with 3+ years of
+            experience in software design, development and deployment.
           </p>
           <Link
             to="my-work"
@@ -39,7 +39,7 @@ function Home() {
               onMouseLeave={() => setMouseEvent(false)}
               className="flex mx-auto sm:mx-0 group space-x-1 items-center shadow-md rounded-full hover:bg-[#66ba5d] border-b-4 border-t-[1px] border-[#66ba5d] py-2 px-5 mt-2 hover:translate-x-1 transition transform ease-in-out duration-350"
             >
-              <div className="uppercase text-xs text-gray-700 group-hover:text-white">
+              <div className="uppercase text-xs font-bold text-gray-700 group-hover:text-white">
                 View my Work
               </div>
               <div>

@@ -9,8 +9,8 @@ function AboutMe() {
           <h2 className="text-left text-xs md:text-sm pb-1 text-[#66ba5d] font-bold">
             MY SKILLSET
           </h2>
-          <h3 className="text-md sm:text-xl md:text-3xl text-gray-700 font-semibold">
-            Fullstack developer who writes clean, elegant and efficient code
+          <h3 className="text-md sm:text-xl md:text-2xl text-gray-700 font-semibold">
+            Fullstack developer and UI/UX designer
           </h3>
 
           <Link

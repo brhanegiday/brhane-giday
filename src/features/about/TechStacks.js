@@ -51,23 +51,51 @@ function TechStacks() {
           <div className="grid grid-cols-2 gap-x-4 lg:gap-x-2">
             <div>
               <h3 className="font-semibold text-gray-700">Frameworks</h3>
-              <p className="text-sm text-gray-700">React</p>
-              <p className="text-sm text-gray-700">Next.Js</p>
-              <p className="text-sm text-gray-700">Node.Js | Express.Js</p>
-              <p className="text-sm text-gray-700">Vue.Js</p>
-              <p className="text-sm text-gray-700">Tailwind CSS</p>
-              <p className="text-sm text-gray-700">Material-UI</p>
-              <p className="text-sm text-gray-700">Laravel</p>
+              <li className="text-md text-gray-700" type="square">
+                React
+              </li>
+              <li className="text-md text-gray-700" type="square">
+                Next.Js
+              </li>
+              <li className="text-md text-gray-700" type="square">
+                Node.Js | Express.Js
+              </li>
+              <li className="text-md text-gray-700" type="square">
+                Typescript
+              </li>
+              <li className="text-md text-gray-700" type="square">
+                Tailwind CSS
+              </li>
+              <li className="text-md text-gray-700" type="square">
+                Material-UI
+              </li>
+              <li className="text-md text-gray-700" type="square">
+                Laravel
+              </li>
             </div>
             <div>
               <h3 className="font-semibold text-gray-700">Tools</h3>
-              <p className="text-sm text-gray-700">TypeScript</p>
-              <p className="text-sm text-gray-700">GraphQL</p>
-              <p className="text-sm text-gray-700">Redux</p>
-              <p className="text-sm text-gray-700">Firebase</p>
-              <p className="text-sm text-gray-700">PostgreSQL</p>
-              <p className="text-sm text-gray-700">Git | Github | Gitlab</p>
-              <p className="text-sm text-gray-700">Netlify | Vercel</p>
+              <li className="text-md text-gray-700" type="square">
+                Jira
+              </li>
+              <li className="text-md text-gray-700" type="square">
+                GraphQL
+              </li>
+              <li className="text-md text-gray-700" type="square">
+                Redux
+              </li>
+              <li className="text-md text-gray-700" type="square">
+                Figma/Adobe XD
+              </li>
+              <li className="text-md text-gray-700" type="square">
+                PostgreSQL
+              </li>
+              <li className="text-md text-gray-700" type="square">
+                Git | Github | Gitlab
+              </li>
+              <li className="text-md text-gray-700" type="square">
+                Netlify | Vercel
+              </li>
             </div>
           </div>
         </div>
