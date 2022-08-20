@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .clip-path {
+    clip-path: polygon(49% 100%, 100% 56%, 0 100%, 100% 100%, 100% 0);
+
+  }
+
+}
+
 html,
 body {
   padding: 0;

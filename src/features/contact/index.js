@@ -7,14 +7,14 @@ function ContactMe() {
       className="py-8 mt-4 pb-10 xl:container sm:px-16 lg:px-20 mx-auto "
       id="contact"
     >
-      <h4 className="text-center text-xs md:text-sm text-[#66ba5d] font-bold">
+      <h4 className="text-center text-xs md:text-sm text-lochmara-500 font-bold">
         WHAT'S NEXT
       </h4>
       <div className="flex space-x-1 items-baseline justify-center">
         <h3 className="text-center text-xl md:text-3xl  text-gray-700 font-semibold">
           Lets work together
         </h3>
-        <div className="w-2 h-2 rounded-full bg-[#66ba5d]"></div>
+        <div className="w-2 h-2 rounded-full bg-lochmara-500"></div>
       </div>
       <p className="w-4/5 lg:w-3/5 mx-auto text-center text-sm mt-2 text-gray-700">
         If you wanna get in touch, talk to me about a project collaboration or

@@ -13,7 +13,7 @@ function Works() {
         <h3 className="text-center text-xl md:text-3xl text-gray-700 font-semibold">
           My Recent Work
         </h3>
-        <div className="w-2 h-2 rounded-full bg-[#66ba5d]"></div>
+        <div className="w-2 h-2 rounded-full bg-lochmara-500"></div>
       </div>
       <p className="py-3 mb-6 md:text-center text-gray-700 text-sm w-full lg:w-3/5 mx-auto">
         Here are some of the projects I have worked on recently.

@@ -10,7 +10,7 @@ function MobileMenu({ setOpenMenu, openMenu }) {
           <div className="mb-10">
             <XIcon
               role="closeIcon"
-              className="w-8 h-8 font-bold text-[#66ba5d]"
+              className="w-8 h-8 font-bold text-lochmara-500"
               onClick={() => setOpenMenu(false)}
             />
           </div>
@@ -26,7 +26,7 @@ function MobileMenu({ setOpenMenu, openMenu }) {
               offset={-70}
               onClick={() => setOpenMenu(false)}
               duration={500}
-              className="text-gray-700 text-md hover:text-[#66ba5d] ease-in-out duration-150 cursor-pointer"
+              className="text-gray-700 text-md hover:text-lochmara-500 ease-in-out duration-150 cursor-pointer"
             >
               Home
             </Link>
@@ -41,7 +41,7 @@ function MobileMenu({ setOpenMenu, openMenu }) {
               offset={-70}
               onClick={() => setOpenMenu(false)}
               duration={500}
-              className="text-gray-700 text-md hover:text-[#66ba5d] ease-in-out duration-150 cursor-pointer"
+              className="text-gray-700 text-md hover:text-lochmara-500 ease-in-out duration-150 cursor-pointer"
             >
               About
             </Link>
@@ -56,7 +56,7 @@ function MobileMenu({ setOpenMenu, openMenu }) {
               offset={-70}
               onClick={() => setOpenMenu(false)}
               duration={500}
-              className="text-gray-700 text-md hover:text-[#66ba5d] ease-in-out duration-150 cursor-pointer"
+              className="text-gray-700 text-md hover:text-lochmara-500 ease-in-out duration-150 cursor-pointer"
             >
               Work
             </Link>
@@ -72,7 +72,7 @@ function MobileMenu({ setOpenMenu, openMenu }) {
               offset={-70}
               onClick={() => setOpenMenu(false)}
               duration={500}
-              className="text-gray-700 text-md hover:text-[#66ba5d] ease-in-out duration-150 cursor-pointer"
+              className="text-gray-700 text-md hover:text-lochmara-500 ease-in-out duration-150 cursor-pointer"
             >
               Contact Me
             </Link>

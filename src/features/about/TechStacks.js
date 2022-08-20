@@ -10,7 +10,7 @@ function TechStacks() {
             <h4 className="text-xl md:text-3xl py-2 text-gray-700 font-semibold">
               Tech Stacks
             </h4>
-            <div className="w-2 h-2 rounded-full bg-[#66ba5d]"></div>
+            <div className="w-2 h-2 rounded-full bg-lochmara-500"></div>
           </div>
           <p className="text-gray-700 text-sm pb-4">
             I have maintained, developed and launched multiple projects from

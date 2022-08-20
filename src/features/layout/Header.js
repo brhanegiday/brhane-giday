@@ -24,14 +24,14 @@ function Header() {
           <div className="block lg:hidden cursor-pointer">
             <MenuIcon
               role="menuIcon"
-              className="w-5 h-5 font-extrabold text-[#66ba5d]"
+              className="w-5 h-5 font-extrabold text-lochmara-500"
               onClick={() => setOpenMenu(true)}
             />
           </div>
           <NextLink href="/">
             <a className="font-semi-bold cursor-pointer">
               <img
-                src="/home/brhane-giday.svg"
+                src="/home/Vanilla-1s-230px.svg"
                 alt="Brhane Giday"
                 width="184px"
                 height="26px"
@@ -49,7 +49,7 @@ function Header() {
               smooth={true}
               offset={-70}
               duration={500}
-              className="text-gray-700 text-sm hover:text-[#66ba5d] ease-in-out duration-150 cursor-pointer"
+              className="text-gray-700 text-sm hover:text-lochmara-500 ease-in-out duration-150 cursor-pointer"
             >
               Home
             </Link>
@@ -64,11 +64,11 @@ function Header() {
               offset={-70}
               duration={500}
               style={{
-                color: router.pathname === "/#me" ? "#66ba5d" : "",
+                color: router.pathname === "/#me" ? "text-lochmara-500" : "",
               }}
               className={`${
-                router.asPath === "/#me" ? "text-[#66ba5d]" : "text-gray-700"
-              } text-sm hover:text-[#66ba5d] ease-in-out duration-150 cursor-pointer`}
+                router.asPath === "/#me" ? "text-lochmara-500" : "text-gray-700"
+              } text-sm hover:text-lochmara-500 ease-in-out duration-150 cursor-pointer`}
             >
               About
             </Link>
@@ -82,7 +82,7 @@ function Header() {
               hashSpy={true}
               offset={-70}
               duration={500}
-              className="text-gray-700 text-sm hover:text-[#66ba5d] ease-in-out duration-150 cursor-pointer"
+              className="text-gray-700 text-sm hover:text-lochmara-500 ease-in-out duration-150 cursor-pointer"
             >
               Work
             </Link>
@@ -97,7 +97,7 @@ function Header() {
               hashSpy={true}
               offset={-70}
               duration={500}
-              className="text-gray-700 text-sm hover:text-[#66ba5d] ease-in-out duration-150 cursor-pointer"
+              className="text-gray-700 text-sm hover:text-lochmara-500 ease-in-out duration-150 cursor-pointer"
             >
               Contact Me
             </Link>
@@ -108,7 +108,7 @@ function Header() {
             href="mailto:brhane5giday@gmail.com"
             rel="noopener"
             target="_blank"
-            className="px-4 py-1 sm:py-[0.2rem] rounded-full bg-[#66ba5d] text-sm text-white hidden sm:block"
+            className="px-4 py-1 sm:py-1.5 font-bold rounded-full bg-lochmara-500 text-sm text-white hidden sm:block"
           >
             Let's Talk
           </a>
@@ -118,7 +118,7 @@ function Header() {
             target="_blank"
           >
             <DocumentIcon
-              className="h-5 w-5 cursor-pointer text-[#66ba5d]"
+              className="h-5 w-5 cursor-pointer text-lochmara-500"
               role="globeIcon"
             />
           </a>
@@ -126,7 +126,7 @@ function Header() {
             {mounted && currentTheme === "dark" ? (
               <div className="flex items-center">
                 <MoonIcon
-                  className="h-5 w-5 text-[#66ba5d] cursor-pointer"
+                  className="h-5 w-5 text-lochmara-500 cursor-pointer"
                   onClick={() => setTheme("dark")}
                   role="moonIcon"
                 />
@@ -135,7 +135,7 @@ function Header() {
             ) : (
               <div className="flex items-center">
                 <SunIcon
-                  className="h-5 w-5 text-[#66ba5d] cursor-pointer"
+                  className="h-5 w-5 text-lochmara-500 cursor-pointer"
                   role="sunIcon"
                   onClick={() => setTheme("light")}
                 />

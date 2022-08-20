@@ -11,7 +11,7 @@ function ShowCase({ showCase }) {
     <React.Fragment>
       <div className="relative" ref={observe}>
         {inView && (
-          <div className="relative lg:h-[22vw] xl:h-[18vw] md:h-[36vw] h-[50vw] 2xl:h-[15vw]">
+          <div className="mix-blend-darken relative lg:h-[22vw] xl:h-[18vw] md:h-[36vw] h-[50vw] 2xl:h-[15vw]">
             <Image
               src={showCase.image}
               alt={showCase.alt}
@@ -31,7 +31,7 @@ function ShowCase({ showCase }) {
 
           <button
             type="button"
-            className="mt-2 w-2/5 hidden md:block rounded-full text-sm px-4 py-1 bg-[#66ba5d] text-white hover:translate-x-2 transition duration-200 ease-in-out"
+            className="mt-2 w-fit hidden md:block rounded-full text-sm px-6 py-2 bg-lochmara-500 font-semibold text-white hover:translate-x-2 transition duration-200 ease-in-out"
           >
             <a href={showCase.url} target="_blank" rel="noopener">
               View Project

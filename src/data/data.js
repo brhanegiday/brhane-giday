@@ -80,6 +80,16 @@ export const showCases = [
   },
   {
     id: uuidv4(),
+    image: "/works/Lumionix.png",
+    alt: "Lumionix Image",
+    title: "Lumionix",
+    url: "https://lumionix.com/",
+    excerpt:
+      "KOMET is an extraordinary photography tool, jam-packed with awesome features",
+    desc: "KOMET is an extraordinary photography tool, jam-packed with awesome features to enhance your creativity. It mounts straight into your camera’s hot-shoe and utilizes USB and Trigger port to unleash various possibilities. Easily access all intuitive features from its on-board touchscreen app or the mobile app. Either photography is your full-time job or you just bought your very first camera, KOMET takes your storytelling above and beyond.",
+  },
+  {
+    id: uuidv4(),
     image: "/works/safi/Safi-digital.jpg",
     alt: "Safi Digital",
     title: "Safi Digital",
@@ -97,16 +107,6 @@ export const showCases = [
     excerpt:
       "Chigign is a reality TV show dedicated to elevating entrepreneurship...",
     desc: "Chigign is a reality TV show dedicated to elevating entrepreneurship and angel investing in Ethiopia. It’s a platform for entrepreneurs to gain access to capital and management expertise.",
-  },
-  {
-    id: uuidv4(),
-    image: "/works/joyadvert/Joy-Advert.png",
-    alt: "joyadvert Image",
-    title: "Joy Media",
-    url: "https://joyadvert.com/",
-    excerpt:
-      "Joy Media is an advertisement & printing company established in 2007...",
-    desc: "Joy Media is an advertisement & printing company established in 2007 by Temesgen Getachew. Based in Addis Ababa, Ethiopia, we have country-wide reach.",
   },
 ];
 

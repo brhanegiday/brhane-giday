@@ -6,7 +6,7 @@ function AboutMe() {
     <div className="py-10" id="about">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center">
         <div className="md:w-4/5 w-full">
-          <h2 className="text-left text-xs md:text-sm pb-1 text-[#66ba5d] font-bold">
+          <h2 className="text-left text-xs md:text-sm pb-1 text-lochmara-500 font-bold">
             MY SKILLSET
           </h2>
           <h3 className="text-md sm:text-xl md:text-2xl text-gray-700 font-semibold">
@@ -23,10 +23,10 @@ function AboutMe() {
           >
             <button
               type="button"
-              className="flex group space-x-1 mt-3 items-center hover:bg-[#66ba5d] shadow-md rounded-full hover:translate-x-1 transition transform ease-in-out duration-350 border-b-4 border-t-[1px] border-[#66ba5d] py-2 px-5"
+              className="flex group space-x-1 mt-3 items-center hover:bg-lochmara-500 shadow-md rounded-full hover:translate-x-1 transition transform ease-in-out duration-350 border-b-4 border-t-[1px] border-lochmara-500 py-2 px-5"
             >
-              <p className="uppercase text-xs text-gray-700 group-hover:text-white">
-                Let's make something special
+              <p className="uppercase text-xs font-semibold text-lochmara-500 group-hover:text-white">
+                Let's work together
               </p>
             </button>
           </Link>
@@ -58,7 +58,7 @@ function AboutMe() {
             >
               <button
                 type="button"
-                className="flex group space-x-1 mt-3 items-center hover:bg-[#66ba5d] shadow-md rounded-full hover:translate-x-1 transition transform ease-in-out duration-350 border-b-4 border-t-[1px] border-[#66ba5d] py-2 px-5"
+                className="flex group space-x-1 mt-3 items-center hover:bg-lochmara-500 shadow-md rounded-full hover:translate-x-1 transition transform ease-in-out duration-350 border-b-4 border-t-[1px] border-lochmara-500 py-2 px-5"
               >
                 <p className="uppercase text-xs text-gray-700 group-hover:text-white">
                   Let's make something special
