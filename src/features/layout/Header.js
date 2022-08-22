@@ -31,7 +31,7 @@ function Header() {
           <NextLink href="/">
             <a className="font-semi-bold cursor-pointer">
               <img
-                src="/home/Vanilla-1s-230px.svg"
+                src="/home/brhane-giday.svg"
                 alt="Brhane Giday"
                 width="184px"
                 height="26px"
@@ -112,7 +112,7 @@ function Header() {
           >
             Let's Talk
           </a>
-          <a href="/home/Updated-CV.pdf" rel="noopener" target="_blank">
+          <a href="/Updated-CV.pdf" rel="noopener" target="_blank">
             <DocumentIcon
               className="h-5 w-5 cursor-pointer text-lochmara-500"
               role="globeIcon"

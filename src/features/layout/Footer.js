@@ -17,7 +17,10 @@ function Footer() {
             <div>
               <h3 className="text-xs  mb-1">Brhane Giday</h3>
               <h4 className="text-sm text-gray-700 sm:font-semibold">
-                Full Stack Developer
+                Frontend developer &
+              </h4>
+              <h4 className="text-sm text-gray-700 sm:font-semibold">
+                UI/UX designer
               </h4>
             </div>
           </div>

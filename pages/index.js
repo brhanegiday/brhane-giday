@@ -16,7 +16,7 @@ export default function HomePage() {
         <meta charSet="UTF-8" />
         <meta
           name="description"
-          content="A freelance software engineer specialized in both front-end and back-end web development."
+          content="A freelancer specializing in Web development with 3+ years of experience in software design, development and deployment."
         />
         <meta
           name="keywords"
@@ -24,23 +24,23 @@ export default function HomePage() {
         />
         <meta name="author" content="Brhane Giday" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <title>Brhane Giday | Fullstack Developer</title>
+        <title>Brhane Giday | Web developer & designer</title>
       </Head>
       <NextSeo
-        title="Brhane Giday | Fullstack Developer"
-        description="A freelance software engineer specialized in both front-end and back-end web development."
+        title="Brhane Giday | Web developer & designer"
+        description="A freelancer specializing in Web development with 3+ years of experience in software design, development and deployment."
         openGraph={{
           type: "website",
           url: `${process.env.SELF_URL}/`,
-          title: "Brhane Giday | Fullstack Developer",
+          title: "Brhane Giday | Web developer & designer",
           description:
-            "A freelance software engineer specialized in both front-end and back-end web development.",
+            "A freelancer specializing in Web development with 3+ years of experience in software design, development and deployment.",
           images: [
             {
-              url: `${process.env.SELF_URL}/og/Brhane-Giday.png`,
+              url: `${process.env.SELF_URL}/home/illustration.png`,
               width: 800,
               height: 600,
-              alt: "Brhane Giday",
+              alt: "Brhane Giday illustration",
             },
           ],
         }}
