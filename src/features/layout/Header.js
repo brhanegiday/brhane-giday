@@ -112,11 +112,7 @@ function Header() {
           >
             Let's Talk
           </a>
-          <a
-            href="https://docs.google.com/document/d/1ZTFbhzxUkX4n8tE2EeZ_zOVkP5cY7_ek89H0Fiu1V6A/edit#"
-            rel="noopener"
-            target="_blank"
-          >
+          <a href="/home/Updated-CV.pdf" rel="noopener" target="_blank">
             <DocumentIcon
               className="h-5 w-5 cursor-pointer text-lochmara-500"
               role="globeIcon"
