@@ -60,7 +60,7 @@ function Home() {
         </div>
         <div className="relative h-[10rem] sm:h-[15rem]  lg:h-[20rem] 2xl:h-[26rem] w-full grayscale-10">
           <Image
-            src="/home/brhane-giday-image.png"
+            src="/home/illustration.png"
             alt="Brhane Giday Image"
             layout="fill"
             objectFit="contain"
