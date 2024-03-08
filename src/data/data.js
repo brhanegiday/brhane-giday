@@ -48,15 +48,26 @@ export const techStacks = [
 ];
 
 export const showCases = [
+  // {
+  //   id: uuidv4(),
+  //   image: "/works/bana/bana-records.png",
+  //   alt: "bana-records-home",
+  //   title: "Bana Records",
+  //   url: "https://bana-records.com",
+  //   excerpt:
+  //     "Bana records is a first-of-its-kind record label based in Ethiopia with...",
+  //   desc: "Bana records is a first-of-its-kind record label based in Ethiopia with its team comprised of industry experts ready to revolutionize the music industry in Ethiopia.",
+  // },
+
   {
     id: uuidv4(),
-    image: "/works/bana/bana-records.png",
-    alt: "bana-records-home",
-    title: "Bana Records",
-    url: "https://bana-records.com",
+    image: "/works/renew/Renew.png",
+    alt: "Renew Strategies Image",
+    title: "RENEW",
+    url: "https://www.renewstrategies.com/",
     excerpt:
-      "Bana records is a first-of-its-kind record label based in Ethiopia with...",
-    desc: "Bana records is a first-of-its-kind record label based in Ethiopia with its team comprised of industry experts ready to revolutionize the music industry in Ethiopia.",
+      "RENEW is an investment adviser registered in the State of Colorado...",
+    desc: "RENEW is an investment adviser registered in the State of Colorado with offices and teams across East Africa. RENEW specializes in small and medium enterprise (SME) investing and private sector development in Africa.",
   },
   {
     id: uuidv4(),
@@ -67,16 +78,6 @@ export const showCases = [
     excerpt:
       "Precise is a premier consulting firm specializing in finance, investment...",
     desc: "Precise is a premier consulting firm specializing in finance, investment, business intelligence, and private sector development advisory services.",
-  },
-  {
-    id: uuidv4(),
-    image: "/works/renew/Renew.png",
-    alt: "Renew Strategies Image",
-    title: "RENEW",
-    url: "https://www.renewstrategies.com/",
-    excerpt:
-      "RENEW is an investment adviser registered in the State of Colorado...",
-    desc: "RENEW is an investment adviser registered in the State of Colorado with offices and teams across East Africa. RENEW specializes in small and medium enterprise (SME) investing and private sector development in Africa.",
   },
   {
     id: uuidv4(),

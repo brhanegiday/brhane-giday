@@ -23,8 +23,10 @@ function Home() {
             <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-lochmara-500"></div>
           </div>
           <p className="w-full sm:w-4/5 text-sm py-2 text-gray-700 text-center sm:text-left">
-            I am a freelancer specializing in Web development with 3+ years of
-            experience in software design, development and deployment.
+            As a Software developer, I specialize in creating robust and
+            user-friendly web solutions. With over 4 years of experience, I've
+            honed my skills in software design, development, and seamless
+            deployment. Let's build something exceptional together!
           </p>
           <Link
             to="my-work"

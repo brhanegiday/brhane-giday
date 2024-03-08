@@ -105,6 +105,30 @@ function Header() {
         </ul>
         <div className="flex items-center  space-x-4">
           <a
+            href="/Brhane_Giday_CV.pdf"
+            rel="noopener"
+            target="_blank"
+            className="flex gap-1 text-primary"
+          >
+            <DocumentIcon
+              className="h-5 w-5 cursor-pointer text-lochmara-500"
+              role="globeIcon"
+            />
+            My CV
+          </a>
+          <a
+            href="/Brhane-Giday_Resume.pdf"
+            rel="noopener"
+            target="_blank"
+            className="flex gap-1 text-[#FF002B]"
+          >
+            <DocumentIcon
+              className="h-5 w-5 cursor-pointer text-[#FF002B]"
+              role="globeIcon"
+            />
+            Resume
+          </a>
+          <a
             href="mailto:brhane5giday@gmail.com"
             rel="noopener"
             target="_blank"
@@ -112,13 +136,7 @@ function Header() {
           >
             Let's Talk
           </a>
-          <a href="/Updated-CV.pdf" rel="noopener" target="_blank">
-            <DocumentIcon
-              className="h-5 w-5 cursor-pointer text-lochmara-500"
-              role="globeIcon"
-            />
-          </a>
-          <div>
+          {/* <div>
             {mounted && currentTheme === "dark" ? (
               <div className="flex items-center">
                 <MoonIcon
@@ -139,7 +157,7 @@ function Header() {
                 <p className="text-xs cursor-pointer">Light</p>
               </div>
             )}
-          </div>
+          </div> */}
         </div>
       </nav>
       {openMenu && <MobileMenu openMenu={openMenu} setOpenMenu={setOpenMenu} />}

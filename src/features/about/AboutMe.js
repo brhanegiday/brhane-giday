@@ -33,20 +33,23 @@ function AboutMe() {
         </div>
         <div>
           <p className="pt-4 text-sm text-gray-700">
-            I specialize in building complex web applications, leading front-end
-            teams. I always seek new opportunities for cooperation on projects
-            around interesting dashboards, design systems or landing pages.
+            I specialize in constructing intricate web applications and leading
+            front-end teams. I actively pursue new opportunities for
+            collaboration on projects involving captivating dashboards,
+            innovative design systems, or impactful landing pages.
           </p>
           <p className="text-sm text-gray-700 mt-2">
-            As a web developer, I enjoy using my obsessive attention to detail,
-            my unequivocal love for making things, and my mission-driven work
-            ethic to literally change the world. That's why I’m excited to make
-            a big impact at a high growth company.
+            As a Software developer, I leverage my meticulous attention to
+            detail, my unwavering passion for creation, and my mission-oriented
+            work ethic to effect meaningful change in the world. I am
+            enthusiastic about making a significant impact at a rapidly growing
+            company.
           </p>
           <p className="text-sm text-gray-700 mt-2">
-            Speaking the languages of designers, developers, and users in
-            fostering smart collaboration. A humble team player leading by
-            influence and genuine passion for crafting solutions.
+            Fluent in the languages of designers, developers, and users, I
+            foster intelligent collaboration. I am a humble team player who
+            leads by influence and possesses a genuine passion for crafting
+            innovative solutions.
           </p>
           <div className="block md:hidden">
             <Link
